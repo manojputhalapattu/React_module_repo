@@ -4,10 +4,10 @@
 //It should contain 3 list elements.
 import React from "react";
 import ReactDom from "react-dom";
-
+const num = 7;
 ReactDom.render(
   <div>
-    <h1> Crack the unacademy</h1>
+    <h1> Crack the unacademy my number is {num}</h1>
     <ul>
       <li> i love pongal </li>
       <li> i love chutny </li>
