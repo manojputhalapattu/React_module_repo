@@ -15,7 +15,7 @@ ReactDom.render(
       Crack the unacademy my number is {num}
     </h1>
     <div>
-      <img className="imh" src={img } />
+      <img className="imh" src={img + "?grayscale"} />
     </div>
   </div>,
   document.getElementById("root")
