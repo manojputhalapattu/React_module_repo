@@ -9,14 +9,17 @@ const fname = "manoj";
 const lname = "puthalapattu";
 ReactDom.render(
   <div>
-    <h1> Crack the unacademy my number is {num}</h1>
+    <h1 className="heading" contentEditable="true" spellCheck="false">
+      {" "}
+      Crack the unacademy my number is {num}
+    </h1>
     <ul>
       <li> i love pongal </li>
       <li> i love chutny </li>
       <li> i want vada </li>
     </ul>
     <h2>
-      Hey {fname} {lname+" "}!{" "+6 + 7}
+      Hey {fname} {lname + " "}!{" " + 6 + 7}
     </h2>
   </div>,
   document.getElementById("root")
