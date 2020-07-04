@@ -5,6 +5,8 @@
 import React from "react";
 import ReactDom from "react-dom";
 const num = 7;
+const fname = "manoj";
+const lname = "puthalapattu";
 ReactDom.render(
   <div>
     <h1> Crack the unacademy my number is {num}</h1>
@@ -13,6 +15,9 @@ ReactDom.render(
       <li> i love chutny </li>
       <li> i want vada </li>
     </ul>
+    <h2>
+      Hey {fname} {lname+" "}!{" "+6 + 7}
+    </h2>
   </div>,
   document.getElementById("root")
 );
