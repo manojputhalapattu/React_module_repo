@@ -8,10 +8,14 @@ const num = 7;
 const fname = "manoj";
 const lname = "puthalapattu";
 const img = "https://picsum.photos/200";
+const styles={
+  color:"red",
+  border: "1px solid blue"
+};
 ReactDom.render(
   <div>
-    <h1 className="heading" contentEditable="true" spellCheck="false">
-      {" "}
+    <h1 style={styles}>
+      
       Crack the unacademy my number is {num}
     </h1>
     <div>
