@@ -7,20 +7,16 @@ import ReactDom from "react-dom";
 const num = 7;
 const fname = "manoj";
 const lname = "puthalapattu";
+const img = "https://picsum.photos/200";
 ReactDom.render(
   <div>
     <h1 className="heading" contentEditable="true" spellCheck="false">
       {" "}
       Crack the unacademy my number is {num}
     </h1>
-    <ul>
-      <li> i love pongal </li>
-      <li> i love chutny </li>
-      <li> i want vada </li>
-    </ul>
-    <h2>
-      Hey {fname} {lname + " "}!{" " + 6 + 7}
-    </h2>
+    <div>
+      <img className="imh" src={img } />
+    </div>
   </div>,
   document.getElementById("root")
 );
